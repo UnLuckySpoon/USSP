@@ -1,5 +1,5 @@
 ent-ClothingNeckCloakCap = плащ капитана
-    .desc = Помпезный и удобный синий плащ с красивой золотой окантовкой, хотя и не самый ценный предмет вашего снаряжения, но очень красивый.
+    .desc = Кра...удивительно,но этот плащ - не красный.
 ent-ClothingNeckCloakHos = плащ главы службы безопасности
     .desc = Элегантный черно-красный плащ, предназначенный для тех, кто стремится доминировать над преступниками. Постарайтесь вести себя вежливо во время суда!
 ent-ClothingNeckCloakCe = плащ старшего инженера
@@ -17,7 +17,7 @@ ent-ClothingNeckCloakHerald = плащ герольда
 ent-ClothingNeckCloakNanotrasen = плащ Nanotrasen
     .desc = Величественный синий плащ, представляющий Nanotrasen.
 ent-ClothingNeckCloakCapFormal = торжественный плащ капитана
-    .desc = Роскошно украшенный плащ для особых случаев.
+    .desc = Плащ для особых случаев.
 ent-ClothingNeckCloakAdmin = плащ админа
     .desc = Вех!
 ent-ClothingNeckCloakMiner = плащ шахтёра
