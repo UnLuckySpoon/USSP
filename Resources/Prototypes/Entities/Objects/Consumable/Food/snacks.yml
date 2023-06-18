@@ -116,6 +116,48 @@
           Quantity: 3
 
 - type: entity
+  name: achocolate bar
+  parent: BaseItem
+  id: FoodSnackAChocolate
+  description: Tastes like cardboard.
+  components:
+  - type: Sprite
+    sprite: Objects/Consumable/Food/snacks.rsi
+    state: achocolatebar
+    netsync: false
+  - type: Item
+    heldPrefix: achocolatebar
+    size: 3
+  - type: SpawnItemsOnUse
+    items:
+      - id: FoodPacketAChocolateTrash
+      - id: FoodSnackAChocolateBar
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  name: achocolate bar
+  parent: FoodSnackBase
+  id: FoodSnackAChocolateBar
+  description: Tastes like cardboard.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - chocolate
+  - type: Sprite
+    state: achocolatebar-open
+  - type: Item
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+        - ReagentId: Theobromine
+          Quantity: 3
+
+- type: entity
   name: energy bar
   parent: FoodSnackBase
   id: FoodSnackEnergy
@@ -437,6 +479,15 @@
 - type: entity
   noSpawn: true
   parent: FoodPacketTrash
+  id: FoodPacketAChocolateTrash
+  name: chocolate wrapper
+  components:
+  - type: Sprite
+    state: achocolatebar-trash
+  - type: Item
+- type: entity
+  noSpawn: true
+  parent: FoodPacketTrash
   id: FoodPacketEnergyTrash
   name: energybar wrapper
   components:
@@ -546,3 +597,4 @@
   components:
   - type: Sprite
     state: mre-wrapper
+

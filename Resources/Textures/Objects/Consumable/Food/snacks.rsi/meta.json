@@ -6,7 +6,24 @@
     "x": 32,
     "y": 32
   },
-  "states": [
+  "states": [	
+    {
+      "name": "achocolatebar"
+    },
+    {
+      "name": "achocolatebar-open"
+    },
+    {
+      "name": "achocolatebar-trash"
+    },
+    {
+      "name": "achocolatebar-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "achocolatebar-inhand-left",
+      "directions": 4
+    },
     {
       "name": "beans"
     },

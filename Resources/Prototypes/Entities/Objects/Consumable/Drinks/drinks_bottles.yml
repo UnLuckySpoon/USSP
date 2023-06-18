@@ -500,3 +500,32 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/soymilk.rsi
+- type: entity
+  parent: DrinkBottleBaseFull
+  id: DrinkBuratinoBottleFull
+  name: space buratino bottle
+  description: Buratino bottle.Nice lemonade.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Cola
+          Quantity: 100
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/buratinobottle.rsi
+ 
+- type: entity
+  parent: DrinkBottleBaseFull
+  id: DrinkKvasBottleFull
+  name: kvass bottle
+  description: A bottle of resfreshing Kvass,comrades!
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Kvass
+          Quantity: 100
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/kvassbottle.rsi

@@ -8,5 +8,8 @@
     DrinkLemonLimeCan: 2
     DrinkDrGibbCan: 2
     DrinkFourteenLokoCan: 2
+    DrinkSodaWaterCan: 5
+    DrinkKvasBottleFull: 4
+    DrinkBuratinoBottleFull: 4
   emaggedInventory:
     DrinkChangelingStingCan: 2
